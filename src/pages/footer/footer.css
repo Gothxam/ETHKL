@@ -1,0 +1,15 @@
+.detail-footer{
+  background-color: var(--bg-secondary-color) !important;
+}
+h4{
+  font-weight: 600;
+}
+.bottom-footer{
+  background-color: var(--bg-footer);
+  color: var(--text-secondary);
+}
+.footer{
+  position: sticky !important;
+  bottom: 0 ; 
+  width: 100%; 
+}

@@ -1,0 +1,91 @@
+.login{
+  margin-top: 2rem;
+  padding: 0rem 4rem;
+  color: var(--text-secondary) !important;
+}
+.login p,.login-title{
+  color: var(--text-secondary);
+  line-height: 1.6rem;
+  text-align: center;
+}
+
+.login-btn{
+  margin-top: 2rem;
+  background-color: rgb(170, 102, 12) !important ;
+  border: none !important;
+  border-radius: 0% !important;
+  color:var(--text-secondary);
+}
+.login-btn:active{
+  background-color: rgb(101, 62, 12) !important ;
+  color: var(--text-secondary) !important;
+}
+.login-btn:hover{
+  background-color:  rgba(162, 102, 23, 0.649) !important;
+  color: var(--text-secondary);
+}
+input.form-control:focus {
+  box-shadow: none;   
+  border-color: #ccc; 
+}
+input{
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  border:none !important;
+  color: var(--text-secondary) !important;
+  border-bottom: 3px solid var(--border-color) !important;
+}
+input::placeholder{
+  color: var(--text-secondary) !important;
+  font-size: large;
+}
+.overlay-content-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:rgba(59, 72, 46, 0.551) ; 
+  padding: 20px;
+  border-radius: 10px;
+  padding-top:5rem;
+  padding-bottom: 5rem;
+  max-width: 520px;
+  max-height: 600px;  
+  width: 90%; 
+   -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px);
+}
+
+.overlay-content-login p{
+  padding: 0rem 3rem;
+}
+.overlay-content-login h2{
+  padding: 0rem 8rem;
+}
+@media (max-width: 576px) {
+  .hero-section {
+    height: 500px;
+  }
+
+  .overlay-content-login {
+    padding: 15px;
+    max-width: 95%;
+  }
+
+  .overlay-content-login h2 {
+    font-size: 1.5rem;
+     padding: 0rem 2rem;
+  }
+
+  .overlay-content-login p {
+    font-size: 1rem;  
+    line-height: 1.4;
+     padding: 0rem 1rem;
+  }
+
+  .overlay-content-login button {
+    font-size: 0.85rem;
+    padding: 5px 15px;
+    margin:10px 0px 20px 0px ;
+  }
+}

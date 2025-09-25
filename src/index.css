@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@199&display=swap');
+:root{
+  --text-primary:rgb(54, 54, 54);
+  --text-secondary:rgb(255, 255, 255);
+  --bg-color:rgb(254, 249, 242);
+  --bg-secondary-color:rgb(249, 235, 217);
+  --bg-footer:rgb(89, 98, 79);
+  --border-color:rgba(212, 177, 157);
+}
+body{
+  box-sizing: border-box;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+button{
+  transform: scale(1) !important;
+  transition: transform 0.5s ease !important; 
+}
+button:hover{
+  transform: scale(1.02) !important;
+}
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+}
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+
+       
+
