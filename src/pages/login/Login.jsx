@@ -3,7 +3,7 @@ import "./login.css"
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
-const Login = ( warning=false) => {
+const Login = ( ) => {
   const [name ,setName] = useState('')
   const [password ,setPassword] = useState('')
   const navigate= useNavigate()
@@ -41,7 +41,7 @@ const Login = ( warning=false) => {
             <div className="login  ">
                 <h1 className="login-title mb-5"><b>Login</b></h1>
                 {
-                  warning && <p className='text-danger'>Please login before accessing site </p>
+                  <p className='text-danger'>Please login before accessing site </p>
                 }
                 
                 <form onSubmit={handleSubmit}>

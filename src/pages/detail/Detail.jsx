@@ -4,6 +4,7 @@ import "./detail.css"
 // import LoginPopup from '../../components/popup/LoginPopup'
 import { add } from '../../redux/slice'
 import { useDispatch } from 'react-redux'
+import { toast } from 'react-toastify'
 const Detail = () => {
   const dispatch=useDispatch()
   const [popup, setPopup] = useState(false)
@@ -43,6 +44,7 @@ const Detail = () => {
   const addToCart=(data)=>{
     // dispatch an action 
     dispatch(add(data))
+    toast.success("product added to  cart sucessfully")
   }
 
   // console.log("popup", popup);
