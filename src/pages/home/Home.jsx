@@ -63,7 +63,7 @@ const [imgLoaded, setImgLoaded] = useState(false);
             <div className="col-md-6 p-0 text-center mb-5" data-aos="fade-right">
                <Link as={NavLink} to="/Women" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
                 <div className="img-container">
-                  <img className="img-fluid w-100" src="../collection/2.avif" alt="womens collection" />
+                  <img className="img-fluid w-100" src="./collection/2.avif" alt="womens collection" />
                 </div>
                 <h4 className="img-shop">Shop Women &gt;</h4>
               </Link>
@@ -72,7 +72,7 @@ const [imgLoaded, setImgLoaded] = useState(false);
             <div className="col-md-6 p-0 text-center" data-aos="fade-left">
               <Link as={NavLink} to="/Men" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
                 <div className="img-container">
-                  <img className="img-fluid w-100" src="../collection/1.avif" alt="mens collection" />
+                  <img className="img-fluid w-100" src="./collection/1.avif" alt="mens collection" />
                 </div>
                 <h4 className="img-shop">Shop Men &gt;</h4>
               </Link>
@@ -83,7 +83,7 @@ const [imgLoaded, setImgLoaded] = useState(false);
 
       <div className='card-container row justify-content-center  ' >
         <div className='card3 ' data-aos="fade-right">
-          <img className="img-fluid  mt-5 " src="../collection/5.avif" alt="" />
+          <img className="img-fluid  mt-5 " src="./collection/5.avif" alt="" />
         </div>
         <div className='card1 ' data-aos="fade-down">
           <h2 className='mb-5 mt-4'><b>Ethically Made</b></h2>
@@ -93,7 +93,7 @@ const [imgLoaded, setImgLoaded] = useState(false);
           <button className='mt-4 px-5 learn-btn p-2 '>Learn More</button>
         </div>
         <div className=' card2 ' data-aos="fade-up">
-          <img className="img-fluid" src="../collection/3.avif" alt="" />
+          <img className="img-fluid" src="./collection/3.avif" alt="" />
         </div>
       </div>
 
@@ -142,7 +142,7 @@ const [imgLoaded, setImgLoaded] = useState(false);
       <div className="mt-4 d-flex justify-content-center" >
         <div className="position-relative w-100 hero-section">
           {/* Background image */}
-          <img className="img-fluid bg-img" src="../collection/6.avif" alt="" />
+          <img className="img-fluid bg-img" src="./collection/6.avif" alt="" />
 
           <div className="overlay-content text-center text-dark px-3"  data-aos="">
             <h2 className="fw-bold mb-4 ">Carefully crafted for people that care</h2>
