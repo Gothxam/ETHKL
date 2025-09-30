@@ -1,4 +1,3 @@
-import { bottom, right } from "@popperjs/core";
 import React, { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
@@ -97,7 +96,7 @@ const Register = () => {
         <div className=" d-flex justify-content-center" >
         <div className="position-relative w-100 hero-section register">
           {/* Background image */}
-          <img className="img-fluid bg-img" src="../collection/6.avif" alt="" />
+          <img className="img-fluid bg-img" src="./collection/6.avif" alt="" />
 
           <div className="overlay-content-login text-center text-dark px-3"  data-aos="">
             <div className="login  ">
