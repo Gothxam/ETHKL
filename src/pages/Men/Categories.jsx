@@ -13,7 +13,7 @@ const Categories = () => {
     const fetchProducts=async()=>{
       try {
         setLoading(true);
-        const res=await fetch("/data/products.json")
+        const res=await fetch("./data/products.json")
         const data=await res.json()
         
         const productCategory = data.categories.find(

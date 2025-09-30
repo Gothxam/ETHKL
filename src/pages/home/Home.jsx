@@ -28,7 +28,7 @@ const [imgLoaded, setImgLoaded] = useState(false);
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await fetch("/data/products.json");
+        const res = await fetch("./data/products.json");
         const data = await res.json();
 
         const productCategory = data.categories.find(

@@ -35,7 +35,7 @@ const Login = ( ) => {
         <div className=" d-flex justify-content-center" >
         <div className="position-relative w-100 hero-section">
           {/* Background image */}
-          <img className="img-fluid bg-img" src="../collection/6.avif" alt="" />
+          <img className="img-fluid bg-img" src="./collection/6.avif" alt="" />
 
           <div className="overlay-content-login text-center text-dark px-3"  data-aos="">
             <div className="login  ">

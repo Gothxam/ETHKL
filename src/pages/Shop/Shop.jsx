@@ -12,7 +12,7 @@ const Shop = () => {
     const fetchProducts=async()=>{
       try {
         setLoading(true)
-        const res=await fetch("/data/products.json")
+        const res=await fetch("./data/products.json")
         const data=await res.json()
         const allProducts=data.categories.flatMap((cat)=>cat.products)
         console.log(allProducts)
