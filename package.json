@@ -8,10 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://your-username.github.io/ethkl",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",

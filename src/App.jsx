@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/home/Home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import Men  from './pages/Men/Categories';
 import Shop from './pages/Shop/Shop';
 import About from './pages/About/About';
@@ -22,7 +22,7 @@ function App() {
     <>
 
 
-      <BrowserRouter >
+      <HashRouter>
           <Navbar/>
       <Routes>
         <Route element={<ProtectRoute/>}>
@@ -37,7 +37,7 @@ function App() {
         <Route path={"/register"} element={<Register/>} />        
       </Routes>
       <Footer></Footer>
-      </BrowserRouter>
+      </HashRouter>
 
 
     </>
