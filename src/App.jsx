@@ -7,7 +7,7 @@ import Men  from './pages/Men/Categories';
 import Shop from './pages/Shop/Shop';
 import About from './pages/About/About';
 import Login from './pages/login/Login';
-import Detail from './pages/detail/DEtail';
+import Detail from './pages/detail/Detail';
 import Register from './pages/register/Register';
 import Footer from './pages/footer/Footer';
 import { ProtectRoute } from './components/Protect/ProtectRoute';

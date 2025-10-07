@@ -22,9 +22,9 @@ const Detail = () => {
 
     const fetchProducts = async () => {
       try {
-        const res = await fetch("./data/products.json")
+        const res = await fetch("/data/products.json")
         const data = await res.json()
-
+        
         const productCategory = data.categories.find(
           (cat) => cat.name.toLowerCase() === category.toLowerCase()
         )
