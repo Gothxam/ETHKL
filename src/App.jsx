@@ -21,8 +21,8 @@ function App() {
   return (
     <>
 
-
-      <HashRouter>
+    <BrowserRouter>
+      {/* <HashRouter> */}
           <Navbar/>
       <Routes>
         <Route element={<ProtectRoute/>}>
@@ -37,8 +37,8 @@ function App() {
         <Route path={"/register"} element={<Register/>} />        
       </Routes>
       <Footer></Footer>
-      </HashRouter>
-
+      {/* </HashRouter> */}
+</BrowserRouter>
 
     </>
   )

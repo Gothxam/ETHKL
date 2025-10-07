@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./login.css"
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
 const Login = ( ) => {
@@ -57,7 +57,7 @@ const Login = ( ) => {
                     <button className="login-btn btn ps-4 pe-4 fs-5 ">Login</button>
                 </div>
                 <div className="mt-3 text-center">
-                    <p >Don't have an account? <a href="/register"><u>Sign up here</u></a></p>
+                    <p >Don't have an account? <Link to="/register"><u>Sign up here</u></Link></p>
                 </div>
                 </form>
             </div>

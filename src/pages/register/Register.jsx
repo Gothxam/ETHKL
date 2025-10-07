@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "./register.css"
 const Register = () => {
@@ -208,7 +208,7 @@ const Register = () => {
               </div>
               <div className="mt-3 text-center">
                 <p>
-                  Already have Account <a href="/login"><u>Sign in here</u></a>
+                  Already have Account <Link to="/login"><u>Sign in here</u></Link>
                 </p>
               </div>
             </form>
