@@ -1,7 +1,7 @@
 // import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { data, Link } from 'react-router-dom';
-import "./cards.css"
+import "./productcard.css"
 import { useState } from 'react';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
